@@ -37,3 +37,38 @@ const students=[
 
 // var checkAgeTall=students.filter(student=>(student.age+student.tall>10));
 // console.log(checkAgeTall);
+
+// ============[Map]===========
+// const studentName=students.map(function(student){
+//   return student.firstname+" "+student.lastname;
+// });
+// console.log(studentName);
+// const agesDouble=students
+// .map(student=>{return student.age*2;})
+// .map(student=>{return Math.sqrt(student)})
+// .map(student=>{return student+3;});                     
+// console.log(agesDouble);
+
+// =============[sort]=========
+// const sortStudents = students.sort((a,b)=>{return b.age-a.age});
+// console.log(sortStudents);
+
+// =============[reduce]=========
+// let ageSum=0;
+// for(let i=0;i<10;i++){
+//   ageSum=ageSum+students[i].age;
+// }
+// console.log(ageSum);
+// const ageSum=students.reduce(function(total,student.age){
+//   return total+student.age;
+// },0);
+// const ageSum=students.reduce((total,student)=> total+student.age,0);
+// console.log(ageSum);
+// const ageTallSum=students.reduce((total,student)=>total+(student.age+student.tall),0);
+// console.log(ageTallSum);
+// const combine=students
+//   .map(student=>student.age*2)
+//   .filter(student=>student>5)
+//   .sort((a,b)=>a-b)
+//   .reduce((total,student)=>(total+student),0);
+// console.log(combine);
