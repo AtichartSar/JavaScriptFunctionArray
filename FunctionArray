@@ -1,0 +1,39 @@
+const students=[
+  {firstname:"firstname1",lastname:"lastname1",age:1,tall:1},
+  {firstname:"firstname2",lastname:"lastname2",age:2,tall:2},
+  {firstname:"firstname3",lastname:"lastname3",age:3,tall:3},
+  {firstname:"firstname4",lastname:"lastname4",age:4,tall:4},
+  {firstname:"firstname5",lastname:"lastname5",age:5,tall:5},
+  {firstname:"firstname6",lastname:"lastname6",age:6,tall:6},
+  {firstname:"firstname7",lastname:"lastname7",age:7,tall:7},
+  {firstname:"firstname8",lastname:"lastname8",age:8,tall:8},
+  {firstname:"firstname9",lastname:"lastname9",age:9,tall:9},
+  {firstname:"firstname10",lastname:"lastname10",age:10,tall:10}
+]
+
+//============[foreach]===========
+// for(let i=0;i<10;i++){
+//   console.log(students[i]);
+// }
+// students.forEach(function(company){
+//   console.log(company.firstname);
+// });
+
+//============[filter]===========
+// let haftAge=[]
+// for(let i=0;i<10;i++){
+//   if(students[i].age>5)haftAge.push(students[i].age);
+// }
+// console.log(haftAge);
+// const haftAge=students.filter(function(student.age){
+//   if(age>5)return true;
+// });
+// console.log(haftAge);
+// const haftAge=students.filter(student => student.age>5);
+// console.log(haftAge);
+
+// var lastIndex = students.filter(student=>student.firstname=="firstname9");
+// console.log(lastIndex);
+
+// var checkAgeTall=students.filter(student=>(student.age+student.tall>10));
+// console.log(checkAgeTall);
